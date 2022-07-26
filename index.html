@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+			rel="stylesheet"
+		/>
+		<title>Weather API</title>
+	</head>
+	<body>
+		<div class="view">
+			<h2>WeatherLy</h2>
+			<form>
+				<div class="search">
+					<input
+						placeholder="Enter a Location"
+						type="text"
+						id="query"
+					/>
+					<button>Submit</button>
+				</div>
+			</form>
+			<div class="details">
+				<div class="img">
+					<img src="" alt="weather-icon" class="icon" />
+				</div>
+				<div class="weather">
+					<div class="location">
+						<span class="material-symbols-outlined"> place </span>
+						<h3>Location</h3>
+						<span class="name"></span>
+					</div>
+					<div class="temperature">
+						<span class="material-symbols-outlined"> thermostat </span>
+						<h3>Temperature</h3>
+						<span class="temp"></span>
+					</div>
+					<div class="description">
+						<span class="material-symbols-outlined"> air </span>
+						<h3>Wind Speed</h3>
+						<span class="desc"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
